@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background: rgba(25,25,25);
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+}
+
+.navbar {
+	border:#3c312b solid;
+	background-color: #f7b22c;
+	width: 100%;
+}
+
+.table {
+	color: white;
+	border: none;
+}
+
+tr:hover {
+	background-color: #212529;
+}
+
+a{
+	font-weight: bold;
+}
+a:hover {
+	color: gold;
+}
+
+.container {
+	padding: 40px;
+	border-radius: 4px;
+	max-width: 1100px;
+	width: 100%;
+	text-align: center;
+}
+
+.allMovies {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 40px
+}
+
+.movieContainer {
+	display:flex;
+	flex-direction: column;
+}
+
+h1 {
+	margin-bottom: 24px;
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
